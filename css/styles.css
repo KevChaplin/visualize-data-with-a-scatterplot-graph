@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+.container {
+  margin: 150px auto 0 ;
+  height: 650px;
+  width: 1000px;
+}
+
+#tooltip {
+  position: absolute;
+  padding: 10px;
+  visibility: hidden;
+  font-size: 12px;
+  border-radius: 10px;
+  background-color: hsl(60, 100%, 85%);
+  z-index: 5;
+}
+
+#title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  top: 50px;
+}
